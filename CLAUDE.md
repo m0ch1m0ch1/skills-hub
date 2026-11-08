@@ -6,7 +6,7 @@
 
 - ここではスキルを直さない。`repos/` の中のファイルを変えない
 - `repos/` の下の CLAUDE.md は、スキルを直すときの決まりなので、ここでは従わない
-- スキルは `.claude/skills/<skill>` のもの (名前に `repos/…:` が付かないもの) を使う。Claude Code は `repos/` の下のスキルも見つけるが、そちらで実行するとパスが `repos/…` になり、許可に一致せず、入力・作業・結果がサブモジュールの中にできる
+- スキルは `.claude/skills/<skill>` のもの (名前に `repos/…:` が付かないもの) を使う。`repos/` の下のファイルを読むと、同じスキルが `repos/<リポジトリ>:<スキル名>` でも出てくるが、そちらは使わない
 - スキルの実行は、このリポジトリのルートからの相対パスで行う (`bash .claude/skills/<skill>/scripts/<script> …`、`python3 -I .claude/skills/<skill>/scripts/<script> …`)。入力・作業・結果は、このリポジトリのルートの下にでき、Git の管理対象外になる
 - `.claude/settings.json` と `.mcp.json` は、サブモジュールのものをまとめたものにする。スキルを直すときだけに使うもの (`bash .github/scripts/check.sh` など) は入れない
 
