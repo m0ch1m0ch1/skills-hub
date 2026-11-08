@@ -5,6 +5,7 @@ __pycache__/
 # スキルの入力・作業・結果 (クラスタや Google Workspace の情報を含むので、コミットしない)
 .tmp/
 input/
+output/
 runbooks/
 must-gather-analyses/
 gws-doc-reviews/
