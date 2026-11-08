@@ -39,3 +39,4 @@ auto mode では、`.claude/settings.json` の個別の許可と、読むだけ�
 
 - ユーザーに示す URL は、検索結果をそのまま使わず、開いて確かめてから書く (WebFetch の要約は、値を取り違えることがある)
 - 秘密情報は、会話・コマンドの引数・共有の設定に残さない
+- コミットメッセージと PR の本文に、`Generated with Claude Code` や `Co-Authored-By: Claude` を入れない
