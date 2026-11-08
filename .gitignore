@@ -4,6 +4,12 @@ __pycache__/
 
 # スキルの入力・作業・結果 (クラスタや Google Workspace の情報を含むので、コミットしない)
 .tmp/
-input/
-output/
 .rhkcs/
+
+# input/<スキル名>/ と output/<スキル名>/ は、フォルダだけを管理し、中身は管理しない
+/input/**
+/output/**
+!/input/*/
+!/output/*/
+!/input/*/.gitkeep
+!/output/*/.gitkeep
