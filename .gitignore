@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+.claude/settings.local.json
+
+# スキルの入力・作業・結果 (クラスタや Google Workspace の情報を含むので、コミットしない)
+.tmp/
+input/
+runbooks/
+must-gather-analyses/
+gws-doc-reviews/
+.rhkcs/

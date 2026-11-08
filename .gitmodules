@@ -1,0 +1,6 @@
+[submodule "repos/gws-skills"]
+	path = repos/gws-skills
+	url = https://github.com/m0ch1m0ch1/gws-skills.git
+[submodule "repos/openshift-skills"]
+	path = repos/openshift-skills
+	url = https://github.com/m0ch1m0ch1/openshift-skills.git

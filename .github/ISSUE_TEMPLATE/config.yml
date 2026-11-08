@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: gws-skills の不具合・要望
+    url: https://github.com/m0ch1m0ch1/gws-skills/issues/new/choose
+    about: gws-md2gdoc、gws-yaml2gsheet、gws-meeting-history、gws-gslides-translate-ja
+  - name: openshift-skills の不具合・要望
+    url: https://github.com/m0ch1m0ch1/openshift-skills/issues/new/choose
+    about: openshift-runbook、openshift-must-gather-analysis、openshift-gws-doc-review、rhkcs-mcp-setup
